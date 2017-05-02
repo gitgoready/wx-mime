@@ -1,5 +1,5 @@
 module.exports = (function() {
-    var webSocketUrl = 'ws://123.56.85.164:18080/websocket',
+    var webSocketUrl = 'ws://localhost:18080/websocket',//123.56.85.164
         socketOpened = false, // 标记websocket是否已经打开
         socketMsgQueue = [],
         connCallback = null,
